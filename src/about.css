@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    box-sizing: border-box;
+}
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+.logo:hover {
+    color: #282b2b;
+}
+.nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-image: linear-gradient(to right, #00dbde, #fc00ff);
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+.nav-links li {
+    padding: 10px;
+    cursor: pointer;
+}
+.nav-links li a {
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 6px 14px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+}
+.nav-links li a:hover {
+    background-color: rgba(238, 179, 255, 0.71);
+    transition: .5s ease-in-out;
+}
+#container {
+    font-weight: bold;
+    font-family: sans-serif;
+    color: aliceblue;
+    padding: 100px;
+    text-align: center;
+    background-image: url(./logo/bizz.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+button {
+    margin: 30px;
+    cursor: pointer;
+    color: whitesmoke;
+    background: transparent;
+    padding: 8px;
+    border-radius: 3px;
+}
+button:hover {
+    transition: .3s ease-in-out;
+     box-shadow: 1px 2px 20px rgb(104, 253, 104);
+    color: hsl(297, 83%, 65%);
+}
+#service {
+    font-family: initial;
+    text-align: center;
+}
